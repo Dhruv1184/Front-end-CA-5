@@ -1,0 +1,36 @@
+body{
+    background-color: black;
+    color: white;
+}
+.head{
+    position: relative;
+    bottom: 2vh;
+    text-align: center;
+    font-size: 10vh;
+}
+.form{
+    border:1px solid white;
+    width: max-content;
+    padding: 6vh;
+    margin: 5vh auto;   
+}
+.form:hover{
+    box-shadow: 0 1vh 1vh;
+}
+.inputs{
+    font-size: 4vh;
+    padding: 1vh 3vw;
+    border-radius: 2vh;
+    outline: none;
+    text-align: center;
+}
+.btn{
+    margin: 2vh 12vw;
+    font-size: 4vh;
+    border-radius: 2vh;
+    padding: 1vh;
+}
+p{
+    color: red;
+    font-size: 3vh;
+}

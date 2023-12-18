@@ -1,0 +1,44 @@
+.Box{
+    /* border: 1px solid black; */
+    width:min-content;
+    text-wrap: wrap;
+    padding: 2vh 3vw;
+    
+}
+.Box:hover{
+    border: 3px solid white;
+    box-shadow:0 1px 1px;
+}
+.body{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10vh;
+    justify-content: space-evenly;
+}
+img{
+    width: 20vw;
+    height: 50vh;
+}
+.rate{
+    display: flex;
+    gap: 3vw;
+    position: relative;
+    bottom: 3vh;
+    font-size: 3vh;
+    font-weight: lighter;
+}
+.title{
+    font-size: 3vh;
+    margin: 1vh;
+    text-align: center;
+    /* font-style: oblique; */
+    font-weight: lighter;
+}
+.input{
+    text-align: center;
+    margin: 0 33vw 10vh 34vw;
+    font-size: 5vh;
+    padding:1vh;
+    border-radius: 10vh;
+    outline: none;
+}

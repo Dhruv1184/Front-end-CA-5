@@ -1,0 +1,14 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 4vh;
+    font-size: 5vh;
+}
+.Link{
+    text-decoration: none; 
+    color: aqua;
+}
+.Link1{
+    text-decoration: none;
+    color: white;
+}
