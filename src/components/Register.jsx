@@ -15,7 +15,15 @@ const Register = () => {
         <h1 className={styling.head}>Create Account</h1>
         <form  onSubmit={handleSubmit(onSubmit)} className={styling.form}>
             <div>
-                <input type="text" className={styling.inputs} placeholder='Your Name' {...register('YourName',{required:'Name is required'})} />
+                <input type="text" className={styling.inputs} placeholder='Your Name' {...register('YourName',{required:'Name is required',
+                minLength:{
+                    value:3,
+                    message:'Name should be contain more than 3 character '
+                },maxLength:{
+                    value:30,
+                    message:'NAme should be contain less than 30 character'
+                }
+            })} />
                 <p>{errors.YourName?.message}</p>
             </div>
             <br />
