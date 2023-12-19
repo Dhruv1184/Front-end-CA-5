@@ -13,6 +13,7 @@ body{
     width: max-content;
     padding: 6vh;
     margin: 5vh auto;   
+    text-align: center;
 }
 .form:hover{
     box-shadow: 0 1vh 1vh;
