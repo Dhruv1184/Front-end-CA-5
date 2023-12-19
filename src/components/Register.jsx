@@ -1,6 +1,7 @@
-import Nav from './Nav'
+// import Nav from './Nav'
 import {useForm} from 'react-hook-form'
 import styling from './Register.module.css'
+import { Link } from 'react-router-dom'
 const Register = () => {
 
     const {register,handleSubmit,watch,formState:{errors}} = useForm()
@@ -11,7 +12,7 @@ const Register = () => {
     
     return (
     <div>
-        <Nav/>
+        {/* <Nav/> */}
         <h1 className={styling.head}>Create Account</h1>
         <form  onSubmit={handleSubmit(onSubmit)} className={styling.form}>
             <div>
@@ -53,6 +54,7 @@ const Register = () => {
             <p>{errors.ReEnter?.message}</p>
             <br />
             <button className={styling.btn} type='submit'>SIGN UP</button>
+            <p className={styling.bottom}>If you have already registered? <Link to='/' className={styling.click}>Click Here!</Link></p>
         </form>
       
     </div>

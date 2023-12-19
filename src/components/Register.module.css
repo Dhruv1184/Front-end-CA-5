@@ -34,3 +34,12 @@ p{
     color: red;
     font-size: 3vh;
 }
+
+.bottom{
+    color:white;
+    text-align: center;
+}
+.click{
+    text-decoration: none;
+    color: aqua;
+}
